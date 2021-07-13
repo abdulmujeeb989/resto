@@ -1,0 +1,130 @@
+
+/*.item {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  z-index: 1;
+  background: #000;
+  color: #fff;
+}*/
+.item.muuri-item-dragging {
+  z-index: 3;
+}
+.item.muuri-item-releasing {
+  z-index: 2;
+}
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+.item-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.back_btn{
+	background: #ff3008;
+    border-radius: 30px;
+    margin: 4px;
+    color: wheat;
+}
+
+
+div.scrollmenu {
+  
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  background:darkgray;	
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+/*========rating stard============*/
+.rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #09f;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #09f;
+}
+/*========end rating stars============*/
+.filter_btn {
+  border:solid 0px !important;
+      padding: 10px !important;
+    min-width: 125px; 
+    background-color: #c0c4c5 !important;
+    color: #1f1f1f
+}
+.osahan-account-page-left .nav-tabs{
+  padding-left:10px !important;
+}

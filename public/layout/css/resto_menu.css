@@ -1,0 +1,77 @@
+.GFG 
+  {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 100%;
+    height: 40vh
+  }
+.resto_add_p{
+	max-width:200px;
+    word-wrap: break-word;
+    line-height:normal;
+}
+.btn-glyphicon {
+    padding:8px;
+    background:#ffffff;
+    margin-right:4px;
+}
+.icon-btn {
+    padding: 1px 15px 3px 2px;
+    border-radius:50px;
+}
+.pill_a{
+    background: #fff6e5;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    line-height: 21px;
+    padding: 4px;
+}
+#gender_radio .noActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+#like_radio .noActive{
+    color: #3276b1;
+    background-color: #fff;
+}
+.icofont_icon{
+    color: #ffa108;
+    font-size:20px;
+    display:inline-flex;
+}
+.detail_ul li{
+	padding:6px;
+}
+.button {
+    border: none;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    background:#fffaee;
+}
+.button4 
+{
+	border-radius: 12px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+}
+.button4.active{
+  color:white;
+  background:#ffa607;
+  border-bottom-right-radius:12px;
+  border-top-right-radius: 12px;
+}
+.btn-group-border{
+	border: solid 2px #ffe7ba;
+    border-radius: 12px;
+}
+.text-color-orange{
+  color:#fea50a;
+}
